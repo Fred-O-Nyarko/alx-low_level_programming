@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char str[8] = { '_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0' };
+	char str[8] = "_putchar";
 	int i = 0;
 	int length = strlen(str);
 
