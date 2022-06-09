@@ -2,9 +2,8 @@
 
 /**
  * mul - computes the product of a and b
- * @a: variable 
+ * @a: variable
  * @b: variable
- *
  * Return: a * b
  */
 
