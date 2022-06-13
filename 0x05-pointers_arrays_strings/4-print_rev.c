@@ -20,7 +20,7 @@ void print_rev(char *str)
 
 	while (str_len >= 0)
 	{
-		_putchar(str[j]);
+		_putchar(str[str_len]);
 		str_len--;
 	}
 	_putchar('\n');
