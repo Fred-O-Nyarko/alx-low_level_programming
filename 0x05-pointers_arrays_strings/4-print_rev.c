@@ -10,13 +10,15 @@
 
 void print_rev(char *str)
 {
-	int str_len = 0;
+	unsigned int str_len = 0;
 
 	while (*str != '\0')
 	{
 		str_len++;
 		str++;
 	}
+	
+	str_len -= 1;
 
 	while (str_len >= 0)
 	{
