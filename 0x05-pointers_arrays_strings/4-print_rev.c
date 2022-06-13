@@ -10,7 +10,7 @@
 
 void print_rev(char *str)
 {
-	unsigned int str_len, j = 0;
+	unsigned int str_len = 0;
 
 	while (*str != '\0')
 	{
@@ -18,10 +18,10 @@ void print_rev(char *str)
 		str++;
 	}
 
-	while (j >= 0)
+	while (str_len >= 0)
 	{
 		_putchar(str[j]);
-		j--;
+		str_len--;
 	}
 	_putchar('\n');
 }
