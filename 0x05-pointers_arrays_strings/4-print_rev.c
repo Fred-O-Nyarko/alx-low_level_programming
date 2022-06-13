@@ -7,24 +7,19 @@
  *
  * Return: none
  */
-
 void print_rev(char *str)
 {
-	unsigned int str_len = 0;
+	int i = 0, j;
 
-	while (*str != '\0')
-	{
-		str_len++;
-		str++;
-	}
-	
-	str_len -= 1;
+	while (*(str + i) != '\0')
+		i++;
 
-	while (str_len >= 0)
+	j = i - 1;
+
+	while (j >= 0)
 	{
-		_putchar(str[str_len]);
-		str_len--;
+		_putchar(str[j]);
+		j--;
 	}
 	_putchar('\n');
 }
-
