@@ -10,7 +10,7 @@
 
 void print_rev(char *str)
 {
-	unsigned int str_len = 0;
+	int str_len = 0;
 
 	while (*str != '\0')
 	{
