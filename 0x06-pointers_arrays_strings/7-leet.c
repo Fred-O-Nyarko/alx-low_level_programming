@@ -22,8 +22,7 @@ char *leet(char *s)
 			{
 				s[i] = b[j];
 			}
-		}
-    		
+		}	
 		i++;
 	}
 
