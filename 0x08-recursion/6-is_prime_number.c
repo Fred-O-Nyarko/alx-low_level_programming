@@ -8,6 +8,7 @@ int determine_prime_number(int n, int i);
  *
  * Return: prime value
  */
+
 int is_prime_number(int n)
 {
 	if (n <= 1)
@@ -22,6 +23,7 @@ int is_prime_number(int n)
  *
  * Return: 1 if n is prime, 0 if not
  */
+
 int determine_prime_number(int n, int i)
 {
 	if (i == 1)
